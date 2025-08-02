@@ -1,0 +1,21 @@
+@import url(header.css);
+@import url(landing_page.css);
+@import url(service.css);
+@import url(about_me.css);
+@import url(background.css);
+@import url(projects.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+:root{
+    --primary-color: #145DA0;
+    --secondary-color: #00A2FF;
+    --tertnary-color: #1C69A8;
+    --background-color: #0C2D48;
+    --text-color: #ffffff;
+}

@@ -1,0 +1,63 @@
+.background{
+    background-image: linear-gradient(to top right,#145DA0, #07223A);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 20px;
+    height: 100vh;
+    padding: 2rem 10rem;
+}    
+
+.heading_skills{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 2rem;
+    color: var(--text-color);
+}
+
+.heading_skills p{
+    font-size: 24px;
+}
+
+.heading_skills h1{
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    color: var(--text-color);
+    margin-top: 5rem;
+}
+
+.dev_rate{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+.dev_texts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dev_texts h3{
+    font-weight: 400;
+}
+
+.side_rating{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
