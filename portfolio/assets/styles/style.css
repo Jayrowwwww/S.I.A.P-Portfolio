@@ -4,6 +4,8 @@
 @import url(about_me.css);
 @import url(background.css);
 @import url(projects.css);
+@import url(contact.css);
+@import url(footer.css);    
 
 *{
     padding: 0;
@@ -18,4 +20,8 @@
     --tertnary-color: #1C69A8;
     --background-color: #0C2D48;
     --text-color: #ffffff;
+}
+
+html{
+    scroll-behavior: smooth;
 }
