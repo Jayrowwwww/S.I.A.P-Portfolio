@@ -1,4 +1,5 @@
 @import url(projects_cards.css);
+@import url(projects_Btn.css);
 
 .projects{
     display: flex;
@@ -6,15 +7,22 @@
     padding: 5rem;
 }
 
-.projects .project_subheading{
+.projects_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.projects_heading .project_subheading{
     font-size: 24px;
 }
 
-.projects .project_heading{
+.projects_heading .project_mainheading{
     font-size: 50px;
 }
 
-.projects span{
+.project_mainheading span{
     color: #00A2FF;
 }
 
