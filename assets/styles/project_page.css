@@ -1,0 +1,55 @@
+@import url(projects_cards.css);
+@import url(projects_Btn.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    padding: 2rem 3rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading p{
+    display: flex;
+    font-size: 1.5rem;
+    text-align: left;
+    color: black;
+}
+
+.heading h1{
+    display: flex;
+    font-size: 3rem;
+    font-weight: 600;
+    gap: 1rem;
+    color: black;
+}
+
+.heading h1 span{
+    color: #00A2FF;
+}
+
+.project_collection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+
+

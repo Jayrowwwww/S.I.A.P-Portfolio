@@ -1,0 +1,15 @@
+.projects_btn{
+    border: none;
+    border-radius: 20px;
+    background-color: #00A2FF;
+    padding: 0.7rem 2.5rem;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: 300;
+    transition: all 0.2s ease-out;
+}
+
+.projects_btn:hover{
+    background-color: #1C69A8;
+    cursor: pointer;
+}

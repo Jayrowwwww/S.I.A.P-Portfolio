@@ -1,0 +1,17 @@
+.git_btn{
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #1C69A8;
+    padding: 0.6rem 2.5rem;
+    font-style: italic;
+    font-size: medium;
+    font-weight: 300;
+    transition: all 200ms ease-out;
+    margin-top: 2rem;
+}
+
+.git_btn:hover{
+    background-color: #00A2FF;
+    cursor: pointer;
+}

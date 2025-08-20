@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    color: var(--text-color);
+    z-index: 99;
+}
+
+header h1{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 600;
+    width: 20rem;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    gap: 5rem;
+    height: 100%;
+    padding: 1rem 5rem;
+    border-radius: 0 0 20px 20px;
+    font-size: 24px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.socials{
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+}
+
+.socials a{
+    text-decoration: none;
+    color: var(--text-color);
+}

@@ -1,0 +1,47 @@
+.services{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    gap: 5rem;
+}
+
+.services .heading{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    align-items: start;
+}
+
+.cards h1{
+    font-style: italic;
+    font-size: 7rem;
+    color: #CFEDF8;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem 2rem;
+    padding: 2rem;
+    background-color: #B1D4E0;
+    width: 360px;
+    height: 490px;
+    border-radius: 20px;
+}
+
+.bot_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 1rem;
+}

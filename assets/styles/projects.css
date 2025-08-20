@@ -1,0 +1,35 @@
+@import url(projects_cards.css);
+@import url(projects_Btn.css);
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.projects_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.projects_heading .project_subheading{
+    font-size: 24px;
+}
+
+.projects_heading .project_mainheading{
+    font-size: 50px;
+}
+
+.project_mainheading span{
+    color: #00A2FF;
+}
+
+.project_collection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
